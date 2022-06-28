@@ -17,6 +17,7 @@ class OnBoardingViewController: UIViewController {
     
     var currentPage = 0 {
         didSet {
+            pageControl.currentPage = currentPage
             if currentPage == slides.count - 1 {
                 nextButton.setTitle(("Let’s start!"), for: .normal)
             }else {
@@ -32,6 +33,7 @@ class OnBoardingViewController: UIViewController {
             OnboardingSlide(title: "Booking tickets for planes and trains", image: UIImage(named: "travelImg")!),
             OnboardingSlide(title: "Booking tickets for planes and trains", image: UIImage(named: "globusImg")!),
             OnboardingSlide(title: "Booking tickets for planes and trains", image: UIImage(named: "hickingImg")!)] // для короткого текста сделать отображение по центру
+        pageControl.numberOfPages = slides.count
     }
     
     @IBAction func nextBtnClicked(_ sender: Any) {
@@ -45,7 +47,6 @@ class OnBoardingViewController: UIViewController {
             
         }else {
             currentPage += 1
-            
             let indexPath = IndexPath(item: currentPage, section: 0)
             collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
         }
