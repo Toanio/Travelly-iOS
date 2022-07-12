@@ -16,5 +16,12 @@ class SingUpViewController: UIViewController {
         
     }
 
-   
+    @IBAction func phoneBtnClicked(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "PhoneSingUpViewController")
+        
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }

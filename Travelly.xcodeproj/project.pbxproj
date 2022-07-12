@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B035EFCB2875D1170081DDB2 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035EFCA2875D1170081DDB2 /* Resources.swift */; };
+		B04E36B9287DAD44009783D0 /* PhoneSingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E36B8287DAD44009783D0 /* PhoneSingUpViewController.swift */; };
 		B0AF2788285CCA0B000C0C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF2787285CCA0B000C0C56 /* AppDelegate.swift */; };
 		B0AF278A285CCA0B000C0C56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF2789285CCA0B000C0C56 /* SceneDelegate.swift */; };
 		B0AF278F285CCA0B000C0C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AF278D285CCA0B000C0C56 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		B035EFCA2875D1170081DDB2 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		B04E36B8287DAD44009783D0 /* PhoneSingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneSingUpViewController.swift; sourceTree = "<group>"; };
 		B0AF2784285CCA0B000C0C56 /* Travelly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travelly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AF2787285CCA0B000C0C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0AF2789285CCA0B000C0C56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				B0AF27D9286D9DFA000C0C56 /* SingUpViewController.swift */,
+				B04E36B8287DAD44009783D0 /* PhoneSingUpViewController.swift */,
 			);
 			path = SingUpScreen;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				B0AF27DA286D9DFA000C0C56 /* SingUpViewController.swift in Sources */,
 				B0AF278A285CCA0B000C0C56 /* SceneDelegate.swift in Sources */,
 				B0AF27C228621548000C0C56 /* OnBoardingViewController.swift in Sources */,
+				B04E36B9287DAD44009783D0 /* PhoneSingUpViewController.swift in Sources */,
 				B0AF27C4286218D6000C0C56 /* UIView+Extantions.swift in Sources */,
 				B035EFCB2875D1170081DDB2 /* Resources.swift in Sources */,
 				B0AF27CE286A06B1000C0C56 /* WelcomeScreenViewController.swift in Sources */,
